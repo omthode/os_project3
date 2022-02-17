@@ -452,13 +452,13 @@ int main() {
   test_init_destroy();
   test_allocation_basic();
   test_free_basic();
-  //test_allocation_withsplits(); 
-  //test_allocationfree_placement();
-  //test_free_coalescing_case1();
-  //test_free_coalescing_case2();
-  //test_free_coalescing_case3();
-  //test_free_coalescing_chains_fwd();
-  //test_free_coalescing_chains_bwd();
+  test_allocation_withsplits(); 
+  test_allocationfree_placement();
+  test_free_coalescing_case1();
+  test_free_coalescing_case2();
+  test_free_coalescing_case3();
+  test_free_coalescing_chains_fwd();
+  test_free_coalescing_chains_bwd();
 
   printf("All tests passed!\n");
 }
